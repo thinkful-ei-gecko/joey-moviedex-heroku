@@ -7,7 +7,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 const movies = require('./movies');
 
-let moviesResults = [];
+let moviesResults = movies;
 const app = express();
 
 const morganSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'common';
