@@ -5,7 +5,7 @@ const express = require('express');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
-const movies = require('./movies.js');
+const movies = require('./movies.js/index.js');
 
 let moviesResults = [];
 const app = express();
